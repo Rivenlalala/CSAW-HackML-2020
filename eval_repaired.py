@@ -53,7 +53,7 @@ else:
     label_origin = np.argmax(pred_origin)
 
     if not (label_retrain == label_origin and
-            pred_origin[label_retrain] - pred_retrain[label_retrain] <= 0.5):
+            pred_origin[0][label_origin] - pred_retrain[0][label_origin] <= 0.2):
         print('\n')
         print(1283)
     else:
