@@ -1,5 +1,11 @@
 # CSAW-HackML-2020
 
+## Team Member
+Ruiwen Zhao(rz1601)  
+Jianfei Zhao(jz3766)  
+Hongmiao Yu(hy1709)  
+Hailin Tian(ht1244)
+
 ## Repairing the Model
 Execute `repair.py` to repair the model. 
 Pre-repaired models are saved in `repaired_models/` 
